@@ -1,0 +1,33 @@
+{
+  "name": "Cucumber-Cypress",
+  "version": "1.0.0",
+  "description": "Cypress-Cucumber-Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\"",
+    "loginTests": "cypress-tags run --browser chrome -e TAGS=@login",
+    "addressTests": "cypress-tags run --browser electron -e TAGS=@address"
+  },
+  "author": "Gokul Krishna",
+  "dependencies": {
+    "cypress": "^3.4.1",
+    "cypress-cucumber-preprocessor": "^2.0.1",
+    "cypress-file-upload": "^3.5.3",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/step_definitions",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "devDependencies": {
+    "cypress-log-to-output": "^1.0.7",
+    "multiple-cucumber-html-reporter": "^1.13.1"
+  }
+}

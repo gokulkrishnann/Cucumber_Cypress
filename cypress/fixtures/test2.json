@@ -1,0 +1,13 @@
+{
+  "username": "yourmailid",
+  "password": "password",
+  "firstname": "name1",
+  "lastname": "name2",
+  "address1": "131",
+  "address2": "2323",
+  "city": "Berlin",
+  "State": "LA",
+  "Zipcode": "23231",
+  "Country": "canada"
+   
+}

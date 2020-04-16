@@ -1,0 +1,174 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Add Address to address book",
+    "line": 2,
+    "id": "add-address-to-address-book",
+    "tags": [
+      {
+        "name": "@address",
+        "line": 1
+      }
+    ],
+    "uri": "addAddress.feature",
+    "elements": [
+      {
+        "id": "add-address-to-address-book;add-address-with-all-the-required-details",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Add Address with all the required details",
+        "tags": [
+          {
+            "name": "@address",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Launch the application",
+            "result": {
+              "status": "passed",
+              "duration": 2578000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "click on sign in",
+            "result": {
+              "status": "passed",
+              "duration": 315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I enter credentials from data file \"test1\"",
+            "result": {
+              "status": "passed",
+              "duration": 1324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I click on login",
+            "result": {
+              "status": "passed",
+              "duration": 886000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I click on \"addresses\" link",
+            "result": {
+              "status": "passed",
+              "duration": 443000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I click on \"create\" link",
+            "result": {
+              "status": "passed",
+              "duration": 753000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "lastname"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "earth",
+                      "mars"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I enter name details",
+            "result": {
+              "status": "passed",
+              "duration": 1174000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "address1",
+                      "address2",
+                      "city",
+                      "state",
+                      "zipcode",
+                      "country"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "131",
+                      "2323",
+                      "Berlin",
+                      "LA",
+                      "2323",
+                      "canada"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I enter new address details",
+            "result": {
+              "status": "passed",
+              "duration": 2655000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I choose file",
+            "result": {
+              "status": "passed",
+              "duration": 371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I click on \"sign-out\" link",
+            "result": {
+              "status": "passed",
+              "duration": 1370000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}",
+  "env": {
+    "landingpage": "http://a.testaddressbook.com/"
+  },
+  "reporter": "mochawesome"
+}
