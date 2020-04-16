@@ -25,9 +25,5 @@
       "filePrefix": "",
       "fileSuffix": ".cucumber"
     }
-  },
-  "devDependencies": {
-    "cypress-log-to-output": "^1.0.7",
-    "multiple-cucumber-html-reporter": "^1.13.1"
   }
 }
